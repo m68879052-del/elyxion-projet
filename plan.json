@@ -1,0 +1,43 @@
+{
+  "version": "0.6.0",
+  "metadata": {
+    "name": "Duplex Malick R+1",
+    "dimensions": {
+      "width": 15.40,
+      "length": 13.85
+    }
+  },
+  "levels": [
+    {
+      "id": "level-0",
+      "name": "Ground Floor",
+      "elevation": 0,
+      "height": 3.0,
+      "walls": [
+        { "id": "w0-1", "start": [0, 0], "end": [15.40, 0], "thickness": 0.15 },
+        { "id": "w0-2", "start": [15.40, 0], "end": [15.40, 13.85], "thickness": 0.15 },
+        { "id": "w0-3", "start": [15.40, 13.85], "end": [0, 13.85], "thickness": 0.15 },
+        { "id": "w0-4", "start": [0, 13.85], "end": [0, 0], "thickness": 0.15 }
+      ],
+      "rooms": [
+        { "id": "room-main-0", "name": "Main Area", "points": [[0,0], [15.40,0], [15.40,13.85], [0,13.85]] }
+      ]
+    },
+    {
+      "id": "level-1",
+      "name": "First Floor",
+      "elevation": 3.0,
+      "height": 3.0,
+      "walls": [
+        { "id": "w1-1", "start": [0, 0], "end": [15.40, 0], "thickness": 0.15 },
+        { "id": "w1-2", "start": [15.40, 0], "end": [15.40, 13.85], "thickness": 0.15 },
+        { "id": "w1-3", "start": [15.40, 13.85], "end": [0, 13.85], "thickness": 0.15 },
+        { "id": "w1-4", "start": [0, 13.85], "end": [0, 0], "thickness": 0.15 }
+      ],
+      "rooms": [
+        { "id": "room-main-1", "name": "Upper Area", "points": [[0,0], [15.40,0], [15.40,13.85], [0,13.85]] }
+      ]
+    }
+  ],
+  "objects": []
+}
